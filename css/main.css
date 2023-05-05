@@ -58,7 +58,7 @@ header h1 {
 	margin: 0;
 	padding: 38px 0 20px 0;
 	width: 100%;
-	border-bottom: 3px solid #45610E;
+	border-bottom: 3px solid #77A466;
 }
 
 header h1 span {
@@ -72,6 +72,7 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
@@ -119,22 +120,23 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	padding: 0 40px;
-	width: 100%;
 }
 
 .section-one {
 	/*width: 29%;*/
+	width: 100%;
 }
 
 .section-two {
 	/*width: 42%;*/
+	width: 100%;
 	border-bottom: 5px solid #EEE;
 	border-top: 5px solid #EEE;
 }
 
 .section-three {
 	/*width: 29%;*/
+	width: 100%;
 }
 
 .bottom-section h3 {
@@ -144,19 +146,18 @@ header nav ul li a {
 .menu-list {
 	padding-left: 0;
 	list-style: none;
-	font-size: 1rem;
 }
 
 .menu-list li {
 	color: #45610E;
 	font-size: 16px;
 	line-height: 36px;
+	font-size: 1rem;
 }
 
 /******** FOOTER STYLES ********/
 /* The widths are in a percentage! */
 footer {
-	text-align: center;
 	margin-top: 8px;
 	display: flex;
 	justify-content: center;
